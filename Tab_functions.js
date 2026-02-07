@@ -7,8 +7,8 @@ function openTrust(evt, Analysis){
     tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(InfoType).style.display = "block";
-  document.getElementById("defaultOpen").click();
-  evt.currentTarget.className += " active";
+    }
+    document.getElementById(InfoType).style.display = "block";
+    document.getElementById("defaultOpen").click();
+    evt.currentTarget.className += " active";
 }
