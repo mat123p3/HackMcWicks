@@ -30,6 +30,7 @@ export class Website {
 }
 
 // RankedWebsite (derived class)
+// may have compatibility issues with backend rating functions. amend as necessary
 
 export class RankedWebsite extends Website {
   private rankingPercentage = 0
