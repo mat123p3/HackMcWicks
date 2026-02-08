@@ -44,3 +44,9 @@ body {
   border-left: none;
   display: none;
 }
+
+/* Data URL Ranked Color */
+.black { color: black; }
+.red { color: red; }
+.yellow { color: goldenrod; }
+.green { color: green; }
