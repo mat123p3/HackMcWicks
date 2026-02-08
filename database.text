@@ -1,0 +1,19 @@
+const Database(){
+
+}
+
+// Class Files
+
+Class Website {
+    public:
+
+    string URL;
+}
+
+Class ranking_color: public Website {
+    public: 
+        float ranking_percentage = 0.0;
+    private: 
+}
+
+
