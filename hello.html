@@ -1,26 +1,31 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <script src="Tab_functions.js"></script>
-  <div class="tab">
-    <button class="tablinks" onclick="openTrust(event, 'Basic')" id="defaultOpen">Basic</button>
-    <button class="tablinks" onclick="openTrust(event, 'Advanced')">Advanced</button>
-  </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <div id="Basic" class="Analysis">
-    <h3>Basic</h3>
-    <p>Fetched Basic info here</p>
-  </div>
+<body>
 
-  <div id="Advanced" class="Analysis">
-    <h3>Advanced</h3>
-    <p>Fetched Advanced info here</p>
-  </div>
+<h1>Herd Immunity</h1>
+<h3>Defending each other, together!</h3>
+<h6>Hacking is so much fun, I can't wait for next time.</h6>
 
-  <body>
-    <h1>Herd Immunity</h1>
-    <h3>Defending each other, together!</h3>
-    <h6>Hacking is so much fun, I can't wait for next time.</h6>
-  </body>
+<div class="tab">
+  <button class="tablinks" onclick="openTrust(event, 'Basic')" id="defaultOpen">Basic</button>
+  <button class="tablinks" onclick="openTrust(event, 'Advanced')">Advanced</button>
+</div>
+
+<div id="Basic" class="tabcontent">
+  <h3>Basic</h3>
+  <p>Fetched Basic info here</p>
+</div>
+
+<div id="Advanced" class="tabcontent">
+  <h3>Advanced</h3>
+  <p>Fetched Advanced info here</p>
+</div>
+
+<script src="Tab_functions.js"></script>
+</body>
 </html>
